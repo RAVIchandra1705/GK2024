@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('images/DJ.jpeg');
+  background-repeat:no repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-size: 100% 100%;
+  background-blend-mode: lighten;
+
+
+}
+.section{
+  
+  min-height: 100vh;
+  padding-top: 100px;
+
+}
+.container{
+  
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h1{
+  background-image: url(images/india1.jpeg);
+  font-family:'Times New Roman';
+  font-size: 40px;
+  margin-bottom: 50px;
+  color:rgb(2, 18, 24);
+  text-align: center;
+  
+}
+
+.gkIndia{
+  max-width: 1000px;
+  margin:auto;
+}
+.gkIndia_item{
+  border: 2px solid rgba(244, 102, 14, 0.836);
+  padding: 20px;
+}
+.gkIndia_title{
+  
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+.gkIndia_title h3{
+  color: rgb(255, 255, 255);
+  flex: 1;
+  font-size: 25px;
+}
+.gkIndia_title i{
+  color: aquamarine;
+  font-size: 30px;
+  cursor: pointer;
+}
+.gkIndia_content{
+  display: none;
+}
+.gkIndia_title.active + .gkIndia_content{
+  display: block;
+  padding-top: 20px;
+}
+
+.gkIndia_content p{
+  font-size: 20px;
+  font-weight: bold;
+  color: aquamarine;
+}
+
+.gkIndia_title.active i{
+  color: rgb(33, 33, 236);
+  transform: rotate(180deg);
+}
+.gkIndia_title.active{
+  border-bottom: 2px solid rgb(33, 33, 236);
+}
