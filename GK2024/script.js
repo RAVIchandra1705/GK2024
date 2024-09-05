@@ -247,7 +247,7 @@ const data = [
   },
   {
     id: '48',
-    question: "What is the national Animal and Bird of India",
+    question: "What are the national Animal and Bird of India",
     answer: "ANIMAL: 'Bengal Tiger' and BIRD: 'Peacock'"
   },
   {
