@@ -1,2 +1,0 @@
-# GK2024
-The GK2024 project is a web-based application built using HTML, CSS, and JavaScript.It features an accordion-style layout that presents general knowledge questions on India and Andhra Pradesh. When users click on an arrow next to each question, the corresponding answer is revealed, and clicking again hides the answer. The project provides an intuitive and interactive way to explore important facts and details, while maintaining a clean and responsive design for easy navigation. 
